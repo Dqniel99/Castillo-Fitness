@@ -6,7 +6,7 @@ body {
   line-height: 1.7;
   font-weight: 300;
   font-size: 1.1rem;
-  color: #989898; }
+  color: black; }
 }
 
 ::-moz-selection {
@@ -636,7 +636,7 @@ color:#ffe941;
         display: inline-block;
         text-decoration: none !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
-          color: #c83660; }
+          color: #ffe941; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
           background: #ffe941; }
   .sticky-wrapper .shrink {
@@ -645,7 +645,8 @@ color:#ffe941;
 
 /* Blocks */
 .intro-section {
-  position: relative; }
+  position: relative;
+  margin-bottom: 42px; }
   .intro-section > .container {
     z-index: 10;
     position: relative; }
@@ -676,7 +677,7 @@ color:#ffe941;
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover; 
-  margin-top: -30px; }
+    margin-top: -30px; }
   .intro-section h1 {
     font-size: 4rem;
     font-weight: 900;
